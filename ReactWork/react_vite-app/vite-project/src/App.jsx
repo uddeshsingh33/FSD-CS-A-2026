@@ -1,12 +1,11 @@
 import './App.css'
+import Gallery from './component/Gallery'
 import Profile from './component/Profile'
+import StateHandiling from './component/StateHandiling'
 function App() {
-
-
   return (
-    <div className='container'>
-      <h2>Welcome to react</h2>
-      <Profile/>
+    <div>
+      <div><StateHandiling/></div>
     </div>
   )
 }
